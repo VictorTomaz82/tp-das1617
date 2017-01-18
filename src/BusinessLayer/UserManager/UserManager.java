@@ -1,4 +1,4 @@
-package UserManager;
+package BusinessLayer.UserManager;
 
 import java.util.ArrayList;
 
