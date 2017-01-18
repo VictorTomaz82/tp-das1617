@@ -1,4 +1,4 @@
-package BiblioManager;
+package BusinessLayer.BiblioManager;
 
 public class BiblioManager {
     

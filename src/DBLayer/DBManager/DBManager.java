@@ -1,4 +1,4 @@
-package DBManager;
+package DBLayer.DBManager;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

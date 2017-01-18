@@ -1,4 +1,4 @@
-package CitationManager;
+package BusinessLayer.CitationManager;
 
 public class CitationStyleTemplate {
     

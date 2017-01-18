@@ -1,6 +1,6 @@
 package UserManager;
 
-import CommandManager.Macro;
+import BusinessLayer.CommandManager.Macro;
 import java.util.ArrayList;
 
 public class User {

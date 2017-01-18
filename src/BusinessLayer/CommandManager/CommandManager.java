@@ -1,6 +1,6 @@
-package CommandManager;
+package BusinessLayer.CommandManager;
 
-import Application.Text;
+import BusinessLayer.Application.Text;
 import java.util.ArrayList;
 
 public class CommandManager {
