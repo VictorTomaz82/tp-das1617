@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 public class User {
     
-   //teste
-    
     String username;
     String password;
     
