@@ -1,8 +1,10 @@
 package BusinessLayer.CommandManager;
 
+import java.util.ArrayList;
+
 public class Macro {
     
     String username;
-    Command commands;
+    ArrayList<Command> commands;
     
 }

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class UserManager {
     
+    User currentUser;
     ArrayList<User> users;
     
     public UserManager(){
