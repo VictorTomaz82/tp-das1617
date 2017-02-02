@@ -1,4 +1,4 @@
-package BusinessLayer.UserManager;
+package DBLayer.DBManager;
 
 import BusinessLayer.CommandManager.Macro;
 import java.util.ArrayList;

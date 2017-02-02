@@ -10,6 +10,8 @@ public class CommandManager {
     
     ArrayList<Command> redoList;
     ArrayList<Command> undoList;
+    
+    Macro currentMacro;
       
     void apply(Command command){
         

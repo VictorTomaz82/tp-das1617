@@ -1,11 +1,10 @@
 package BusinessLayer.UserManager;
 
-import java.util.ArrayList;
+import DBLayer.DBManager.User;
 
 public class UserManager {
     
     User currentUser;
-    ArrayList<User> users;
     
     public UserManager(){
         //ToDo: read from DB
@@ -19,11 +18,11 @@ public class UserManager {
         //ToDo
     }
     
-    void SeeMacros(){
+    void seeMacros(){
         //ToDo
     }
     
-    void SeeHistory(){
+    void seeLastDocuments(){
         //ToDo
     }
 }
