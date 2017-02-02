@@ -1,7 +1,5 @@
-
 package DBLayer;
 
-
-public interface DBFacade {
+public class DBFacade implements InterfaceDBFacade{
     
 }
