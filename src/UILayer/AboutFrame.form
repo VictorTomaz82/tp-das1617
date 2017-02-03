@@ -2,9 +2,9 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
-    <Property name="defaultCloseOperation" type="int" value="3"/>
-    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[500, 250]"/>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <SerializedValue value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,0,-6,0,0,1,-12"/>
     </Property>
     <Property name="resizable" type="boolean" value="false"/>
     <Property name="type" type="java.awt.Window$Type" editor="org.netbeans.modules.form.editors.EnumEditor">
@@ -30,38 +30,32 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="labelAutores" min="-2" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="buttonClose" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="labelVictor" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="labelAutores" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelAndre" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelJudith" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelAboutTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelAmbito" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelIsec" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="labelJudith" min="-2" max="-2" attributes="0"/>
-                          <Component id="labelAndre" min="-2" max="-2" attributes="0"/>
-                          <Component id="labelVictor" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="buttonClose" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                  </Group>
               </Group>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="labelIsec" min="-2" max="-2" attributes="0"/>
-                  <Component id="labelAmbito" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="labelNome" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -69,31 +63,71 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
+              <Component id="labelAboutTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="labelNome" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="labelAmbito" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="labelIsec" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="labelAutores" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="labelAndre" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="labelJudith" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="buttonClose" min="-2" max="-2" attributes="0"/>
-                  <Component id="labelVictor" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+              <Component id="labelVictor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="buttonClose" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelAboutTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="About"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gestor de Referencias Bibliogr&#xe1;ficas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelAmbito">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trabalho realizado no &#xe2;mbito da unidade curricular de DAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelIsec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ISEC 2016/2017 "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelAutores">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Autores:"/>
+      </Properties>
+    </Component>
     <Component class="javax.swing.JLabel" name="labelAndre">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Andr&#xe9; Pinho"/>
+        <Property name="text" type="java.lang.String" value="Andr&#xe9; Pinho   a21210411"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelJudith">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Judith Santos   a20105033"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelVictor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Victor Soares    a21220721"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JToggleButton" name="buttonClose">
@@ -103,36 +137,6 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonCloseActionPerformed"/>
       </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="labelJudith">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Judith Santos"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="labelVictor">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Victor Soares"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="labelNome">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Gestor de Referencias Bibliogr&#xe1;ficas"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="labelAmbito">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Realizado no &#xe2;mbito da unidade curricular de Design e Arquitectura de Sistemas"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="labelAutores">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Autores:"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="labelIsec">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="ISEC 2016/2017 "/>
-      </Properties>
     </Component>
   </SubComponents>
 </Form>

@@ -20,21 +20,36 @@ public class AboutFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        labelAndre = new javax.swing.JLabel();
-        buttonClose = new javax.swing.JToggleButton();
-        labelJudith = new javax.swing.JLabel();
-        labelVictor = new javax.swing.JLabel();
+        labelAboutTitle = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
         labelNome = new javax.swing.JLabel();
         labelAmbito = new javax.swing.JLabel();
-        labelAutores = new javax.swing.JLabel();
         labelIsec = new javax.swing.JLabel();
+        labelAutores = new javax.swing.JLabel();
+        labelAndre = new javax.swing.JLabel();
+        labelJudith = new javax.swing.JLabel();
+        labelVictor = new javax.swing.JLabel();
+        buttonClose = new javax.swing.JToggleButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(500, 250));
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         setType(java.awt.Window.Type.POPUP);
 
-        labelAndre.setText("André Pinho");
+        labelAboutTitle.setText("About");
+
+        labelNome.setText("Gestor de Referencias Bibliográficas");
+
+        labelAmbito.setText("Trabalho realizado no âmbito da unidade curricular de DAS");
+
+        labelIsec.setText("ISEC 2016/2017 ");
+
+        labelAutores.setText("Autores:");
+
+        labelAndre.setText("André Pinho   a21210411");
+
+        labelJudith.setText("Judith Santos   a20105033");
+
+        labelVictor.setText("Victor Soares    a21220721");
 
         buttonClose.setText("Close");
         buttonClose.addActionListener(new java.awt.event.ActionListener() {
@@ -43,68 +58,55 @@ public class AboutFrame extends javax.swing.JFrame {
             }
         });
 
-        labelJudith.setText("Judith Santos");
-
-        labelVictor.setText("Victor Soares");
-
-        labelNome.setText("Gestor de Referencias Bibliográficas");
-
-        labelAmbito.setText("Realizado no âmbito da unidade curricular de Design e Arquitectura de Sistemas");
-
-        labelAutores.setText("Autores:");
-
-        labelIsec.setText("ISEC 2016/2017 ");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(36, 36, 36)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(labelAutores)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(labelJudith)
-                            .addComponent(labelAndre)
-                            .addComponent(labelVictor))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(buttonClose)
-                        .addGap(59, 59, 59))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelIsec)
-                    .addComponent(labelAmbito))
-                .addGap(19, 19, 19))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(labelNome)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(buttonClose)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(labelVictor)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(labelAutores)
+                                    .addComponent(labelAndre)
+                                    .addComponent(labelJudith)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(labelNome)
+                                .addComponent(labelAboutTitle)
+                                .addComponent(labelAmbito)
+                                .addComponent(labelIsec)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
+                .addComponent(labelAboutTitle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelNome)
                 .addGap(18, 18, 18)
                 .addComponent(labelAmbito)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelIsec)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelAutores)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelAndre)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelJudith)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(buttonClose)
-                    .addComponent(labelVictor))
-                .addGap(124, 124, 124))
+                .addComponent(labelVictor)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(buttonClose)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -158,6 +160,8 @@ public class AboutFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JToggleButton buttonClose;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JLabel labelAboutTitle;
     private javax.swing.JLabel labelAmbito;
     private javax.swing.JLabel labelAndre;
     private javax.swing.JLabel labelAutores;
